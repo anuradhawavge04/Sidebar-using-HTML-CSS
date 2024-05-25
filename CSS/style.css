@@ -41,12 +41,17 @@ body{
     margin-right: 10px;
 }
 
+.content{
+    margin: 10px;
+}
+
 /*Media Queries*/
 @media screen and (min-width:200px) and (max-width: 650px) {
 
     .sidebar{
         width: 150px;
         padding: 5px;
+        display: fixed;
     }
 
     .menu-item span{
