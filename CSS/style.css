@@ -45,8 +45,13 @@ body{
     margin: 10px;
 }
 
+.active-menu{
+    background-color: #9999ff;
+}
+
 /*Media Queries*/
-@media screen and (min-width:200px) and (max-width: 650px) {
+
+@media screen and (min-width:350px) and (max-width: 600px) {
 
     .sidebar{
         width: 150px;
@@ -63,7 +68,7 @@ body{
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px){
+@media screen and (min-width: 601px) and (max-width: 768px){
 
     .sidebar{
         width: 200px;
@@ -79,7 +84,7 @@ body{
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 769px) and (max-width: 992px){
 
     .sidebar{
         width: 250px;
@@ -95,7 +100,7 @@ body{
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 993px) and (max-width: 1200px){
 
     .sidebar{
         width: 275px;
@@ -111,7 +116,7 @@ body{
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1500px){
+@media screen and (min-width: 1201px) and (max-width: 1500px){
 
     .sidebar{
         width: 300px;
